@@ -2,9 +2,9 @@ let ErrorMessage = [];
 
 var data = [
     "Silverqueen",
-    "Kecap",
-    "Batrai",
-    "Apel"
+    "Ice Cream",
+    "Battery",
+    "Apple"
 ];
 
 var harga = [
