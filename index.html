@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Javascript Cashier</title>
+</head>
+<body>
+  <div class="box">
+        <h1>Native Javascript Cashier App</h1>
+        
+        <table id="tabel"></table>
+        <table id="tabelTwo">
+          <tr>
+            <th width="601.5px">Add Item</th>
+            <th>Total Price</th>
+          </tr>
+          <tr>
+            <td>
+              <div class="container">
+                <input class="form-tambah" type="text" name="barang" placeholder="input Item..." />
+                <input class="form-tambah" type="text" name="harga" placeholder="input Price..." />
+              </div>
+              <button class="btn-tambah" onclick="tambah()">Add Item</button>
+            </td>
+            <td>
+              <div class="row">
+                <div class="column-left">
+                  <input type="text" class="form-proses" id="jml-barang" placeholder="Total Item : 0 Items" disabled/>
+                </div>
+                <div class="column-right">
+                    <input type="text" class="form-proses" id="tot-diskon" placeholder="Total Discount : 0%" disabled/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="column-left">
+                  <input type="text" class="form-proses" id="nil-diskon" placeholder="Discount Value : Rp0,-" disabled/>
+                </div>
+                <div class="column-right">
+                    <input type="text" class="form-proses" id="tot-harga" placeholder="Total Price : Rp0,-" disabled/>
+                </div>
+              </div>
+              <button class="btn-tambah" onclick="proses()">Process</button>
+            </td>
+          </tr>
+        </table>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
