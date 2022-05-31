@@ -1,4 +1,4 @@
-.form-tambah {
+.form-add {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-.form-jumlah {
+.form-count {
     width: 35%;
     padding: 12px 12px;
     margin: 8px 0;
@@ -18,7 +18,7 @@
     box-sizing: border-box;
 }
 
-.form-proses {
+.form-process {
     width: 100%;
     padding: 12px 7px;
     margin: 8px 0;
@@ -28,13 +28,13 @@
     box-sizing: border-box;
 }
 
-.proses-container {
+.process-container {
     display: flex; 
     justify-content: flex-end;
     text-align:justify;
 }
 
-.btn-tambah {
+.btn-add {
     width: 100%;
     background-color: #428bca;
     color: white;
@@ -45,7 +45,7 @@
     cursor: pointer;
 }
 
-.btn-tambah:hover {
+.btn-add:hover {
     background-color: #5bc0de;
 }
 
@@ -77,7 +77,7 @@
     background-color: #f1975f;
 }
 
-.btn-hapus {
+.btn-remove {
     background-color: #f44336;;
     color: white;
     padding: 14px 20px;
@@ -87,7 +87,7 @@
     cursor: pointer;
 }
 
-.btn-hapus:hover {
+.btn-remove:hover {
     background-color: #f5554a;
 }
 
@@ -97,14 +97,14 @@
     padding: 20px;
 }
 
-#tabel {
+#table {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     text-align: center;
     width: 100%;
 }
 
-#tabel td, #tabel th {
+#table td, #table th {
     border: 1px solid #ddd;
     padding: 8px;
 }
@@ -113,11 +113,11 @@
     border-width: 200px;
 }
 
-#tabel tr:nth-child(even){background-color: #f2f2f2;}
+#table tr:nth-child(even){background-color: #f2f2f2;}
 
-#tabel tr:hover {background-color: #ddd;}
+#table tr:hover {background-color: #ddd;}
 
-#tabel th {
+#table th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
@@ -126,19 +126,19 @@
 }
 
 
-#tabelTwo {
+#tableTwo {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     text-align: center;
     width: 100%;
 }
 
-#tabelTwo td, #tabelTwo th {
+#tableTwo td, #tableTwo th {
     border: 1px solid #f2f2f2;
     padding: 8px;
 }
 
-#tabelTwo th {
+#tableTwo th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
@@ -160,7 +160,6 @@
     
   }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
