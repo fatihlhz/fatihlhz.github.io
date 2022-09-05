@@ -1,49 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MathJax example</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Javascript Cashier</title>
-</head>
-<body>
-  <div class="box">
-        <h1>Native Javascript Cashier App</h1>
-        
-        <table id="table"></table>
-        <table id="tableTwo">
-          <tr>
-            <th width="601.5px">Add Item</th>
-            <th>Payment Process</th>
-          </tr>
-          <tr>
-            <td>
-              <div class="container">
-                <input class="form-add" type="text" name="item" placeholder="input Item..." />
-                <input class="form-add" type="text" name="price" placeholder="input Price..." />
-              </div>
-              <button class="btn-add" onclick="add()">Add Item</button>
-            </td>
-            <td>
-              <div class="row">
-                <div class="column-left">
-                  <input type="text" class="form-process" id="item-total" placeholder="Item Total : 0 Items" disabled/>
-                </div>
-                <div class="column-right">
-                    <input type="text" class="form-process" id="discount-total" placeholder="Discount Total : 0%" disabled/>
-                </div>
-              </div>
-              <div class="row">
-                <div class="column-left">
-                  <input type="text" class="form-process" id="discount-value" placeholder="Discount Value : Rp0,-" disabled/>
-                </div>
-                <div class="column-right">
-                    <input type="text" class="form-process" id="price-total" placeholder="Price Total : Rp0,-" disabled/>
-                </div>
-              </div>
-              <button class="btn-add" onclick="process()">Process</button>
-            </td>
-          </tr>
-        </table>
-  </div>
-    <script src="script.js"></script>
-</body>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+  </head>
+  <body>
+    <div class="div1">
+      <h3>
+        2.&ensp; Rosetta Network Structure
+      </h3>
+      <p>
+        The structure of the network is as follows:
+      </p>
+      <p class="p2">
+        &emsp; 1.&ensp; Researchers \(r_{1}, r_{2},...,r_{\left[ R\right]} \in R.\)
+        <br>
+        <br>
+        &emsp; 1.&ensp; Research items \(t_{1}, t_{2},...,t_{\left[ T\right]} \in T.\)
+      </p>
+      <p class="p3">
+        &emsp; &ensp; Each researcher has an associated set of research items which they have (co-)authored,
+        and each research item has an associated set of researcher(s) who (co-)authored it. 
+        Suppose that researcher \(r\) has a set of \(n\) research items. 
+        Then we denote \(r\)’s research items as \(r^{1}, r^{2},...r^{n}\), and and refer to the collection of 
+        research items as \(r^{*}\) . Likewise, suppose that research item \(t\) has \(m\) authors. 
+        Then we denote \(t\)’s authors as \(t^{1}, t^{2},...t^{m}\) and refer to all the authors of \(t\) and \(t^{*}\).
+      </p>
+    </div>
+  </body>
 </html>
