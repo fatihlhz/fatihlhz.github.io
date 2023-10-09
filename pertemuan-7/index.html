@@ -149,6 +149,16 @@
                 desc.innerHTML = deskripsi[count - 1];
             }
         }
+
+        let played = false;
+
+        document.addEventListener('click', function(event) {
+            if (!played) {
+                const audio = document.getElementById("myAudio");
+                audio.play();
+                played = true;
+            }
+        });
     </script>
 </body>
 </html>
